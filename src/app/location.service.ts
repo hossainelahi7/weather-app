@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
 import { catchError } from 'rxjs/operators';
 import {Location} from './location'
-import { of } from 'rxjs/observable/of';
+import { Observable, of } from 'rxjs';
+
 
 @Injectable()
 export class LocationService {
