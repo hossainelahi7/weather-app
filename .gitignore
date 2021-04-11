@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
 
@@ -44,3 +43,4 @@ tutor-karma.conf.js
 Thumbs.db
 
 package-lock.json
+.editorconfig
